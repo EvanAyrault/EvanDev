@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="star" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:white;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:white;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Étoiles de différentes tailles -->
+  <g fill="url(#star)">
+    <!-- Petites étoiles -->
+    <circle cx="100" cy="100" r="1" />
+    <circle cx="200" cy="150" r="1" />
+    <circle cx="300" cy="200" r="1" />
+    <circle cx="400" cy="250" r="1" />
+    <circle cx="500" cy="300" r="1" />
+    <circle cx="600" cy="350" r="1" />
+    <circle cx="700" cy="400" r="1" />
+    
+    <!-- Étoiles moyennes -->
+    <circle cx="150" cy="250" r="1.5" />
+    <circle cx="250" cy="350" r="1.5" />
+    <circle cx="350" cy="450" r="1.5" />
+    <circle cx="450" cy="550" r="1.5" />
+    <circle cx="550" cy="150" r="1.5" />
+    <circle cx="650" cy="250" r="1.5" />
+    
+    <!-- Grandes étoiles -->
+    <circle cx="200" cy="400" r="2" />
+    <circle cx="400" cy="200" r="2" />
+    <circle cx="600" cy="500" r="2" />
+    
+    <!-- Étoiles supplémentaires -->
+    <circle cx="50" cy="500" r="1" />
+    <circle cx="150" cy="50" r="1" />
+    <circle cx="250" cy="150" r="1" />
+    <circle cx="350" cy="250" r="1" />
+    <circle cx="450" cy="350" r="1" />
+    <circle cx="550" cy="450" r="1" />
+    <circle cx="650" cy="550" r="1" />
+    <circle cx="750" cy="50" r="1" />
+    
+    <!-- Plus d'étoiles pour un effet plus dense -->
+    <circle cx="75" cy="75" r="1" />
+    <circle cx="175" cy="175" r="1" />
+    <circle cx="275" cy="275" r="1" />
+    <circle cx="375" cy="375" r="1" />
+    <circle cx="475" cy="475" r="1" />
+    <circle cx="575" cy="575" r="1" />
+    <circle cx="675" cy="75" r="1" />
+    <circle cx="775" cy="175" r="1" />
+  </g>
+</svg> 
